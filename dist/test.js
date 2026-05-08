@@ -32,5 +32,13 @@ class Device {
     ;
 }
 const result = new Device("Laptop", "HP", "Black", 180000, true);
+const output = new Device("Mobile", "Apple", "Golden", 120000, true);
 console.log(result.category, result.brand, result.color, result.isReal, result.price);
+console.log(output.category, output.brand, output.color, output.isReal, output.price);
+const user = {
+    name: "Shah Mozzem Remal",
+    age: 23,
+    email: "remal.mozzem@gmail.com",
+};
+console.log(user.email);
 //# sourceMappingURL=test.js.map
