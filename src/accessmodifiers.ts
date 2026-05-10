@@ -1,7 +1,7 @@
 class BankAccount {
     public userId: number;
     public userName: string;
-    protected userBalance: number;
+    protected userBalance: number; //private
 
     constructor(userId: number, userName: string, userBalance: number) {
         this.userId = userId;
