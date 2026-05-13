@@ -19,3 +19,27 @@ class MusicPlayer implements MediaPlayer {
 const MusicInstance = new MusicPlayer();
 
 MusicInstance.stop();
+
+
+// Abstraction - class
+abstract class MediaPlayer1 {
+    abstract play1(): void;
+    abstract pause1(): void;
+    abstract stop1(): void;
+}
+
+class MusicPlayer1 extends MediaPlayer1 {
+    play1(): void {
+        console.log("Music Play...");
+    }
+    pause1(): void {
+        console.log("Music Pause...");
+    }
+    stop1(): void {
+        console.log("Music Stop...");
+    }
+}
+
+const MusicInstance1 = new MusicPlayer1();
+
+MusicInstance1.play1();
