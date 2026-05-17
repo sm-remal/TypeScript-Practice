@@ -26,7 +26,8 @@ class StudentAccount extends BankAccount {
 const balance = new BankAccount(121, "Siam", 20);
 const studentBalance = new StudentAccount(122, "Rahim", 200);
 
-
+//console
 console.log(balance.addBalance(140));
 console.log(studentBalance.StudentBalance());
+
 
